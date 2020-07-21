@@ -1,0 +1,1 @@
+# easybank-tailwind-template
