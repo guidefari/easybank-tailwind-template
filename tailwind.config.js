@@ -18,6 +18,18 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      primary: {
+        'Dark-Blue': 'var(--color-Dark-Blue)',
+        'Lime-Green': 'var(--color-Lime-Green)',
+        'Bright-Cyan': 'var(--color-Bright-Cyan)',
+      },
+
+      neutral: {
+        'Grayish-Blue': 'var(--color-Grayish-Blue)',
+        'Light-Grayish-Blue': 'var(--color-light-grayish-blue)',
+        'Very-Light-Gray': 'var(--color-very-light-gray)',
+      },
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
