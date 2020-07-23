@@ -13,7 +13,7 @@
     <link rel="stylesheet" href= 
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-
+<!-- Only mobile view is ready -->
   <body class="bg-teal-400 ">
 
     <header id="top" class="fixed flex flex-col w-full sm:relative pin-t pin-r pin-l">
@@ -26,7 +26,8 @@
         </div>
         
       </nav>
-      <div id="menu" class="flex-col items-center self-end hidden w-11/12 h-full py-1 pb-4 mx-auto mt-4 text-center bg-gray-300 rounded-md sm:w-auto sm:self-center sm:flex sm:flex-row sm:py-0 sm:pb-0">
+      <!-- Menu is the tray containing the nav links -->
+      <div id="menu" class="flex-col items-center self-end hidden w-11/12 h-full py-1 pb-4 mx-auto mt-4 text-center transition duration-500 ease-in-out bg-gray-300 rounded-md sm:w-auto sm:self-center sm:flex sm:flex-row sm:py-0 sm:pb-0">
         <a class="w-full py-2 text-lg font-bold no-underline text-dark hover:text-red sm:w-auto sm:pr-4 sm:py-1 sm:pt-2" href="https://ttntm.me/blog/tailwind-responsive-menu/" target="_blank">About</a>
         <a class="w-full py-2 text-lg font-bold no-underline text-dark hover:text-red sm:w-auto sm:px-4 sm:py-1 sm:pt-2" href="#bottom">Features</a>
       </div>
@@ -54,9 +55,12 @@ function navToggle() {
         var btn = document.getElementById('menuBtn');
         var nav = document.getElementById('menu');
 
+        
         btn.classList.toggle('open');
         nav.classList.toggle('flex');
         nav.classList.toggle('hidden');
+        
+        
     }
 </script> 
 
