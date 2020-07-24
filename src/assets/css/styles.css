@@ -5,21 +5,38 @@ h1 {
     @apply mb-2;
     @apply px-3;
     @apply text-primary-Dark-Blue;
+    @apply font-bold;
     line-height: 2rem;
-  }
+    }
 h2 {
     @apply text-2xl;
     @apply mb-2;
     @apply px-3;
+    @apply font-bold;
     @apply text-primary-Dark-Blue;
     line-height: 2rem;
-  }
+    }
+h3 {
+    @apply text-xl;
+    @apply mb-1;
+    @apply px-3;
+    @apply font-normal;
+    @apply text-primary-Dark-Blue;
+    line-height: 2rem;
+    }
 
-  section{
-      @apply flex;
-      @apply items-center;
-      @apply justify-center;
-  }
+p{
+    @apply font-medium;
+    @apply text-sm;
+    @apply text-neutral-Grayish-Blue;
+}
+
+section{
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply justify-center;
+}
 
 @tailwind components;
 
