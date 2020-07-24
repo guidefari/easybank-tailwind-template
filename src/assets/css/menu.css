@@ -2,11 +2,11 @@
 
 
 
-@media (min-width: 577px) {
+/* @media (min-width: 577px) {
   .pt-scroll {
     padding-top: 51px;
   }
-}
+} */
 
   .nav-sticky {
     position: fixed!important;
