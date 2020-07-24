@@ -2,11 +2,11 @@
 
 
 
-/* @media (min-width: 577px) {
+@media (min-width: 577px) {
   .pt-scroll {
     padding-top: 51px;
   }
-} */
+}
 
   .nav-sticky {
     position: fixed!important;
@@ -15,10 +15,6 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
     transition: all .25s ease-in;
     z-index: 1;
-  }
-
-  #menu  {
-    transition: all 0.5s;
   }
 
 /* HAMBURGER MENU */
@@ -56,6 +52,17 @@
 .open {
   transform: rotate(90deg);
   transform: translateY(-1px);
+}
+
+.tray-open {
+  transform: translateY(0vh);
+  display:flex;
+}
+
+.closed{
+  transform: translateY(-100vh);
+Transition: 3s all;
+display:none;
 }
 
 .open .hamburger__top-bun {
