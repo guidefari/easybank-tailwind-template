@@ -1,5 +1,26 @@
 @tailwind base;
 
+h1 {
+    @apply text-3xl;
+    @apply mb-2;
+    @apply px-3;
+    @apply text-primary-Dark-Blue;
+    line-height: 2rem;
+  }
+h2 {
+    @apply text-2xl;
+    @apply mb-2;
+    @apply px-3;
+    @apply text-primary-Dark-Blue;
+    line-height: 2rem;
+  }
+
+  section{
+      @apply flex;
+      @apply items-center;
+      @apply justify-center;
+  }
+
 @tailwind components;
 
 @tailwind utilities;
