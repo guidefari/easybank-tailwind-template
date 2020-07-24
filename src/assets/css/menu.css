@@ -66,10 +66,16 @@ display: flex;
 opacity: 0;
 }
 
+.closed.folded{
+  height: 0;
+}
+
 @media only screen and (min-width: 640px) {
   .closed{
-    Transition: 3s all;
-    display:;
+    transform: translateY(0vh);
+Transition: 2s all;
+display: flex;
+opacity: 1;
   }
 }
 
