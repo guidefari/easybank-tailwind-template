@@ -7,7 +7,7 @@
     padding-top: 51px;
   }
 }
-
+/* 
   .nav-sticky {
     position: fixed!important;
     min-width: 100%;
@@ -15,7 +15,7 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
     transition: all .25s ease-in;
     z-index: 1;
-  }
+  } */
 
 /* HAMBURGER MENU */
 
@@ -49,10 +49,10 @@
   transform: translateY(3px);
 }
 
-.open {
+/* .open {
   transform: rotate(90deg);
   transform: translateY(-1px);
-}
+} */
 
 .tray-open {
   transform: translateY(0vh);
@@ -62,7 +62,15 @@
 .closed{
   transform: translateY(-100vh);
 Transition: 3s all;
-display:none;
+display: flex;
+height: 0px;
+}
+
+@media only screen and (min-width: 640px) {
+  .closed{
+    Transition: 3s all;
+    display:;
+  }
 }
 
 .open .hamburger__top-bun {
@@ -76,3 +84,4 @@ display:none;
     rotate(-45deg)
     translateY(0px);
 }
+
