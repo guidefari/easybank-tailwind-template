@@ -20,23 +20,42 @@ h3 {
     @apply text-xl;
     @apply mb-1;
     @apply px-3;
-    @apply font-normal;
+    @apply font-medium;
     @apply text-primary-Dark-Blue;
     line-height: 2rem;
     }
+h4 {
+    @apply text-lg;
+    @apply mb-1;
+    @apply px-3;
+    @apply font-medium;
+    @apply text-primary-Dark-Blue;
+    line-height: 1.8rem;
+    }
+h6 {
+    font-size: 0.7rem;
+    @apply mb-1;
+    @apply px-3;
+    @apply font-normal;
+    @apply text-primary-Dark-Blue;
+    line-height: 0.7rem;
+    }
 
-p{
+p {
     @apply font-medium;
     @apply text-sm;
     @apply text-neutral-Grayish-Blue;
+    @apply px-3;
 }
 
-section{
+section {
     @apply flex;
     @apply flex-col;
     @apply items-center;
     @apply justify-center;
 }
+
+
 
 @tailwind components;
 
