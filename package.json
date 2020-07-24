@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple tailwind template, based off of a frontendmentor design",
   "scripts": {
+    "clear-build-cache": "rm -rf .cache/ dist/",
     "dev": "npx parcel src/index.html",
     "prod": "npx parcel build src/index.html"
   },
@@ -15,5 +16,8 @@
     "postcss": "^7.0.32",
     "tailwindcss": "^1.5.1",
     "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.2.0"
   }
 }

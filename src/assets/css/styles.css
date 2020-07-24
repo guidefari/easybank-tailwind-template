@@ -19,6 +19,10 @@ body {
     --color-very-light-gray: hsl(0, 0%, 98%);
 }
 
-#intro {
+#hero-image {
+    height: 22rem;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
     background-image: url(../../../design/images/bg-intro-mobile.svg);
 }
