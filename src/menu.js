@@ -1,8 +1,8 @@
 document.getElementById("menuBtn").addEventListener("click", navToggle);
 
 
-// var nav = document.getElementById('site-menu');
-//     var header = document.getElementById('top');
+var nav = document.getElementById('site-menu');
+    var header = document.getElementById('top');
 
     window.addEventListener('scroll', function() {
       if (window.scrollY >=400) { // adjust this value based on site structure and header image height

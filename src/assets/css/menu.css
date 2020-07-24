@@ -61,7 +61,7 @@
 
 .closed{
   transform: translateY(-100vh);
-Transition: 3s all;
+Transition: 2s all;
 display: flex;
 height: 0px;
 }
