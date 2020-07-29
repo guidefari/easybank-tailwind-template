@@ -17,16 +17,21 @@ window.addEventListener('scroll', function() {
 function navToggle() {
     var btn = document.getElementById('menuBtn');
     var nav = document.getElementById('menu');
-
+    
     btn.classList.toggle('open');
     nav.classList.toggle('closed');
     nav.addEventListener('transitionend', changedp);
     nav.classList.toggle('tray-open');
+    console.log(btn)
+    console.log(nav)
 }
 
 function changedp() {
   var nav = document.getElementById('menu');
   if(nav.classList.contains('closed'))
-{  nav.classList.toggle('hidden');
-}  
+      {nav.style.display ='none';
+        }
+      else{
+        nav.style.display ='flex';
+      }  
 }
